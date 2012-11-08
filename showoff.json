@@ -1,0 +1,16 @@
+{
+  "name": "Introducing OpenShift",
+  "subtitle": "Red Hat's Free PaaS",
+  "author" : "Fotios Lindiakos",
+  "sections": [
+    "slides/intro",
+    "slides/paas",
+    "slides/types",
+    "slides/outro"
+  ],
+  "templates" : {
+    "title" : "title.tpl",
+    "default" : "simple.tpl"
+  },
+  "markdown" : "kramdown"
+}

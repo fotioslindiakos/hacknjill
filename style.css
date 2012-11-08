@@ -1,0 +1,91 @@
+.slide {
+  background-color: #222;
+  background-image: url(images/noise.png);
+  font-family: Overpass;
+  font-size: smaller;
+}
+
+/* This prevents the slide text from being centered poorly */
+.slide .content:not(.center) {
+  margin-top: 0px !important;
+}
+
+.slide:first-child h1{
+  font-variant: small-caps
+}
+
+.slide .subsection h1 {
+  background-color: #111;
+}
+
+.slide:first-child {
+  background-image:
+    url(images/diagonals-top.png),
+    url(images/diagonals-bottom.png),
+    url(images/logo-medium.png),
+    url(images/redhat.png)
+    ;
+  background-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat
+    ;
+  background-position:
+    right bottom,
+    left top,
+    95% 5%,
+    2% 98%
+    ;
+}
+
+.content {
+  color: white;
+}
+
+.overpass {
+}
+
+#top::before {
+  content: url(images/openshift_logo.png);
+  margin-left: 20px;
+}
+
+#top {
+  background-color: gray;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(221, 221, 221, 0.74902);
+  display: table;
+}
+
+#bottom span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#bottom .logo {
+  float: right;
+  background-color: gray;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#bottom .author {
+  padding-left: 20px;
+}
+
+/* Using this technique forces the bottom div to resize */
+#bottom .logo::after {
+  content: url(images/redhat.png);
+}
+
+/* Hide the footer by default */
+#footer {
+  display: none;
+}
