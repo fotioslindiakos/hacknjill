@@ -1,5 +1,6 @@
 !SLIDE center
-# Questions?
-<br/>
+# Thank You!
 <br/>
 ## http://www.openshift.com
+<br/>
+## Promo Code: hnj
