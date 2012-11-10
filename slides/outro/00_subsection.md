@@ -1,6 +1,8 @@
 !SLIDE center
 # Thank You!
 <br/>
-## http://www.openshift.com
-<br/>
 ## Promo Code: hnj
+<br/>
+### http://www.openshift.com
+### freenode #openshift
+### @openshift
