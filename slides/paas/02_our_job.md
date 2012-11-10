@@ -4,6 +4,6 @@
 	* Patches and updates
 	* Migrating applications
 	* Configuring Everything
-	* Web Server
-		* DNS
+		* Web Server
+		* Modules
 		* Database

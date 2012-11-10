@@ -1,7 +1,21 @@
-!SLIDE
+!SLIDE smaller
 # What You Do
-* Create an application
-	* You'll get some code to get you started
-* Modify your application
-* Deploy your application
-	* `git push`
+1. Install CLI tools
+
+		gem install rhc
+
+1. Create your app
+
+		rhc app create awesomeapp -t ruby-1.9
+
+1. Add cartridges
+
+		rhc cartridge add mysql-5.1
+
+1. Write some code
+
+		git add . && git commit -am "Added some awesome"
+
+1. Deploy
+
+		git push

@@ -8,5 +8,5 @@
 * Python 2.6
 * Perl 5.10
 * Node.js 0.6
-* Ruby 1.9.3, 1.8,7
+* Ruby 1.9.3, 1.8.7
 * Do-It-Yourself

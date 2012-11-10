@@ -1,0 +1,48 @@
+GIT
+  remote: git://github.com/fotioslindiakos/showoff.git
+  revision: 2da60b09ba47231fcd13ef2feb6db974457f4efa
+  specs:
+    showoff (0.7.0)
+      gli (>= 2.0.0)
+      json
+      nokogiri
+      parslet
+      redcarpet
+      sinatra (~> 1.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    blankslate (2.1.2.4)
+    foreman (0.60.0)
+      thor (>= 0.13.6)
+    gli (2.4.1)
+    json (1.7.5)
+    kramdown (0.14.0)
+    nokogiri (1.5.5)
+    parslet (1.4.0)
+      blankslate (~> 2.0)
+    pdfkit (0.5.2)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    redcarpet (2.2.2)
+    rmagick (2.13.1)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    thor (0.16.0)
+    tilt (1.3.3)
+    wkhtmltopdf-binary (0.9.5.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  kramdown
+  pdfkit
+  rmagick
+  showoff!
+  wkhtmltopdf-binary

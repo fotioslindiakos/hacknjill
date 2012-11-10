@@ -1,5 +1,7 @@
 !SLIDE[tpl=title] overpass center
 # ~~~CONFIG:name~~~
-## ~~~CONFIG:subtitle~~~
+# ~~~CONFIG:subtitle~~~
 <br/>
-### ~~~CONFIG:author~~~
+## ~~~CONFIG:author~~~
+### fotios@redhat.com
+### OpenShift Developer
